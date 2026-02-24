@@ -35,7 +35,7 @@ A powerful chunked file upload field for **Filament 4 & 5** using [Uppy.js](http
 ## Installation
 
 ```bash
-composer require spykapp/filament-uppy-upload
+composer require spykapps/filament-uppy-upload
 ```
 
 Publish and register Filament assets:
