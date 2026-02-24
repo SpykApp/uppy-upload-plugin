@@ -1,0 +1,52 @@
+{
+    "name": "spykapps/filament-uppy-upload",
+    "description": "A powerful chunked file upload field for Filament using Uppy.js with S3, remote sources (Google Drive, OneDrive, Dropbox), webcam, screen capture, audio recording, image editing and more.",
+    "keywords": [
+        "laravel",
+        "filament",
+        "uppy",
+        "upload",
+        "chunked-upload",
+        "s3",
+        "file-upload",
+        "google-drive",
+        "onedrive",
+        "dropbox"
+    ],
+    "homepage": "https://github.com/spykapps/filament-uppy-upload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SpykApps",
+            "email": "hello@spykapps.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^4.0|^5.0",
+        "spatie/laravel-package-tools": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpykApp\\UppyUpload\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SpykApp\\UppyUpload\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpykApp\\UppyUpload\\UppyUploadServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

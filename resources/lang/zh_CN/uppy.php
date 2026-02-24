@@ -1,0 +1,2 @@
+<?php
+return ['loading'=>'正在加载上传器...','drop_files'=>'将文件拖放到此处','browse_files'=>'浏览文件','or_import_from'=>'或从以下导入','my_device'=>'我的设备','camera'=>'相机','screencast'=>'屏幕录制','audio'=>'音频','upload'=>'上传','cancel'=>'取消','complete'=>'已完成','upload_failed'=>'上传失败','retry'=>'重试','max_file_size'=>'最大文件大小','remove_file'=>'移除文件','uploading'=>'正在上传...','processing'=>'正在处理...','file_deleted'=>'文件已成功删除。','file_not_found'=>'文件未找到。'];
